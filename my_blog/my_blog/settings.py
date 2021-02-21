@@ -22,19 +22,19 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#1hb2v=!m8lw!_c4nqel$*2g^4da)6v1b9$ty^p&n4@%@cq71z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-<<<<<<< HEAD
-DEBUG = True
 
-ALLOWED_HOSTS = []
-=======
+
+
+
 # 关闭调试模式
-DEBUG = False
+DEBUG = True
 
 # 腾讯云服务器公网IP
 Tencent_Cloud_Ip = '81.70.239.53'
 # 允许访问的服务器
-ALLOWED_HOSTS = [Tencent_Cloud_Ip]
->>>>>>> 8f309d544e6fd532f842fb6b07d626cd4926d743
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = [Tencent_Cloud_Ip]
+
 
 # Application definition
 
@@ -155,9 +155,7 @@ DEFAULT_FROM_EMAIL = '博客网 <limingkeji163@163.com>'
 # 媒体文件地址
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-<<<<<<< HEAD
-=======
+
 
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
->>>>>>> 8f309d544e6fd532f842fb6b07d626cd4926d743
