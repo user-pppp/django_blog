@@ -1,0 +1,47 @@
+<!-- extends表明此页面继承自 base.html 文件 -->
+{% extends "base.html" %}
+{% load staticfiles %}
+
+<!-- 写入 base.html 中定义的 title -->
+{% block title %}
+关于
+{% endblock title %}
+
+<!-- 写入 base.html 中定义的 content -->
+{% block content %}
+<head>
+    <style>
+        div {
+            text-align: center
+        }
+
+        #divcss5 {
+            margin: 0 auto;
+            width: 600px;
+            height: 100px
+        }
+    </style>
+</head>
+<br>
+<div class="container" align="center" id="divcss5">
+    <div class="row">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">关于本人</a>
+            <a href="#" class="list-group-item list-group-item-action">鹏鹏，庚辰年，摩羯男，单身，积极向上，热泪盈眶，豪情满怀，坦坦荡荡。</a>
+            <a href="#" class="list-group-item list-group-item-action">祖籍河北邯郸，不喜毒赌，不善麻辣。</a>
+            <a href="#" class="list-group-item list-group-item-action">不追剧，偶尔游戏，抽烟，啤酒，烧烤。</a>
+            <a href="#" class="list-group-item list-group-item-action">休闲运动，打死不穿带扣外套。</a>
+            <a href="#" class="list-group-item list-group-item-action">朋友很少，宅而很馊。</a>
+            <a href="#" class="list-group-item list-group-item-action">喜欢旅游，近期热爱烧饭。</a>
+            <a href="#" class="list-group-item list-group-item-action">信奉自律。</a>
+            <a href="#" class="list-group-item list-group-item-action">带眼镜的代码基佬，不秃头。</a>
+            <a href="#" class="list-group-item list-group-item-action">梦想赚点小钱，父母健康平安,老婆孩子热炕头。</a>
+            <a class="list-group-item list-group-item-action"
+               href="https://weibo.com/p/1005056186374548/home?from=page_100505&mod=TAB&is_all=1#place">新浪微博</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">联系方式见页脚，请多指教。</a>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}
