@@ -5,6 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 3.8 (django_project)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+<<<<<<< HEAD
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
@@ -12,4 +13,6 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 8f309d544e6fd532f842fb6b07d626cd4926d743
 </module>
