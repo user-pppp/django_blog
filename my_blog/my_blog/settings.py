@@ -27,13 +27,13 @@ SECRET_KEY = '#1hb2v=!m8lw!_c4nqel$*2g^4da)6v1b9$ty^p&n4@%@cq71z'
 
 
 # 关闭调试模式
-DEBUG = True
+DEBUG = False
 
 # 腾讯云服务器公网IP
 Tencent_Cloud_Ip = '81.70.239.53'
 # 允许访问的服务器
-ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = [Tencent_Cloud_Ip]
+# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [Tencent_Cloud_Ip]
 
 
 # Application definition
