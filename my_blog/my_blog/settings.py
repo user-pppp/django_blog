@@ -32,8 +32,8 @@ DEBUG = False
 # 腾讯云服务器公网IP
 Tencent_Cloud_Ip = '81.70.239.53'
 # 允许访问的服务器
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = [Tencent_Cloud_Ip]
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = [Tencent_Cloud_Ip]
 
 
 # Application definition
