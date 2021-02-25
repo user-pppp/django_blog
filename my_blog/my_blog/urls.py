@@ -18,9 +18,13 @@ from django.urls import path, include
 # 导入settings与static
 from django.conf import settings
 from django.conf.urls.static import static
+# 导入博客views
+from article import views as article_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # 文章首页
+    path('', article_views.article_list, name='article_homepage'),
     # 文章路由
     path('article/', include('article.urls', namespace='article')),
     # 用户管理

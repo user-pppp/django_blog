@@ -24,8 +24,6 @@ SECRET_KEY = '#1hb2v=!m8lw!_c4nqel$*2g^4da)6v1b9$ty^p&n4@%@cq71z'
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-
-
 # 关闭调试模式
 DEBUG = False
 
@@ -155,7 +153,6 @@ DEFAULT_FROM_EMAIL = '博客网 <limingkeji163@163.com>'
 # 媒体文件地址
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-
 
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
